@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 header{
-    
+    border-radius: 13px 13px 13px 13px;
     background-color: #32B46C;
 }
 
 body{
-    
+    border-radius: 13px 13px 13px 13px;
     background-color: white;
     font-family: 'Poppins',Arial, Helvetica, sans-serif;
 }
@@ -18,15 +18,18 @@ h1{
     font-family: 'Idroid.otf', Arial, Helvetica, sans-serif;
 }
 h2{
+    background-color: #32B46C;
+    border-radius: 13px 13px 13px 13px;
     text-align: center;
-    color: black;
+    color: white;
     font-family: 'Idroid.otf',Arial, Helvetica, sans-serif;
 }
 ul{
     text-align: center;
-    color: aliceblue;
+    color: black;
 }
 p{
+    border-radius: 13px 13px 13px 13px;
     text-align: center;
     color: black;
 }
@@ -42,5 +45,16 @@ div{
     text-align: center;
 }
 p#cabeçalho{
+    font-weight: bold;
     color: aliceblue;
+}
+ul#cabeçalho{
+    text-decoration: underline;
+    color: aliceblue;
+    
+}
+nav{ 
+    font-weight: bold;
+    display: flex;
+    
 }
